@@ -6,9 +6,8 @@
     <title>Struktur HTML & CSS Flex</title>
     <style>
       body {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: sans-serif;
         margin: 20px;
-        background-color: aquamarine;
       }
 
       .container {
@@ -18,8 +17,8 @@
 
       .header {
         border: black 2px solid;
-        border-radius: 50px;
-        background-color: #43d517;
+        border-radius: 10px;
+        background-color: #ffe0e0;
         padding: 20px;
         text-align: center;
         margin-bottom: 10px;
@@ -32,7 +31,7 @@
       }
 
       .navigation {
-        background-color: #ffe0f5;
+        background-color: #e0ffe0;
         padding: 15px;
         width: 200px;
       }
@@ -42,11 +41,10 @@
         flex-direction: column; /* Susun artikel secara vertikal */
         gap: 10px;
         flex-grow: 1; /* Membuat area artikel mengisi ruang yang tersedia */
+        background-color: #080808;
       }
 
       .article {
-        border-radius: 15px;
-        border: rgb(198, 0, 0) 2px solid;
         background-color: #fff0e0;
         padding: 15px;
       }
@@ -70,7 +68,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="header"> <h1>Struktur HTML & CSS</h1></header>
+      <header class="header">Struktur HTML & CSS Flex</header>
       <div class="main-content">
         <nav class="navigation">
           <ul>
