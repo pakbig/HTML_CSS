@@ -4,30 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox Sederhana</title>
+    <!-- <link rel="stylesheet" href="flex_box.css"> -->
     <style>
-      .flex-container {
-        display: flex; /* Mengubah kontainer menjadi flexbox */
+      .kotak {
+        display: flex; /*Mengubah kontainer menjadi flexbox */
         gap: 10px; /* Memberikan jarak antar item */
-        border: 2px solid black;
-        padding: 10px;
-      }
+        border: 2px solid rgb(160, 210, 35);
+        padding: 50px;
+      } -->
 
-      .flex-item {
-        background-color: lightblue;
+      .baris {
+        background-color: rgb(221, 57, 194);
         padding: 20px;
         text-align: center;
-        justify-content: center; /* Mengatur konten di dalam item */
+        justify-content: center; /*Mengatur konten di dalam item */
         flex: 1; /* Membuat item fleksibel, mengisi ruang yang tersedia */
       }
     </style>
   </head>
   <body>
     <h1>Contoh CSS-Flexbox Sederhana</h1>
-
-    <div class="flex-container">
-      <div class="flex-item">Kotak 1</div>
-      <div class="flex-item">Kotak 2</div>
-      <div class="flex-item">Kotak 3</div>
+   
+    
+    <div class="kotak">
+      <div class="baris">Kotak 1</div>
+      <div class="baris">Kotak 2</div>
+      <div class="baris">Kotak 3</div>
     </div>
   </body>
 </html>
