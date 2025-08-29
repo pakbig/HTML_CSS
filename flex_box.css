@@ -1,0 +1,17 @@
+body {
+    margin: 20px;
+}
+.kotak {
+        display: flex; /*Mengubah kontainer menjadi flexbox */
+        gap: 10px; /* Memberikan jarak antar item */
+        border: 2px solid black;
+        padding: 10px;
+      }
+
+      .flex-item {
+        background-color: lightblue;
+        padding: 20px;
+        text-align: center;
+        justify-content: center; /* Mengatur konten di dalam item */
+        flex: 1; /* Membuat item fleksibel, mengisi ruang yang tersedia */
+      }
