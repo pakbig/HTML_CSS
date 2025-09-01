@@ -4,30 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox Sederhana</title>
+    <!-- <link rel="stylesheet" href="flex_box.css"> -->
     <style>
-      .flex-container {
-        display: flex; /* Mengubah kontainer menjadi flexbox */
-        gap: 10px; /* Memberikan jarak antar item */
-        border: 2px solid black;
-        padding: 10px;
-      }
+      .kotak {
+        display: flex; /*Mengubah kontainer menjadi flexbox */
+        gap: 20px; /* Memberikan jarak antar item */
+        border: 2px solid rgb(9, 9, 8);
+        padding: 5px;
+      } -->
 
-      .flex-item {
-        background-color: lightblue;
-        padding: 20px;
+      .baris {
+        background-color: rgb(57, 221, 82);
+        padding: 3px;
         text-align: center;
-        justify-content: center; /* Mengatur konten di dalam item */
+        justify-content: center; /*Mengatur konten di dalam item */
         flex: 1; /* Membuat item fleksibel, mengisi ruang yang tersedia */
       }
+
+      .baris1 {
+        background-color: brown;
+        flex: 1;
+      }
+
     </style>
   </head>
   <body>
     <h1>Contoh CSS-Flexbox Sederhana</h1>
-
-    <div class="flex-container">
-      <div class="flex-item">Kotak 1</div>
-      <div class="flex-item">Kotak 2</div>
-      <div class="flex-item">Kotak 3</div>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias pariatur possimus, beatae veritatis culpa nam voluptas enim excepturi reprehenderit sit?</p>
+    <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, aliquid?</h6>
+    <div class="kotak">
+      <div class="baris1">Kotak 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, repudiandae!</div>
+      <div class="baris">Kotak 2</div>
+      <div class="baris">Kotak 3</div>
     </div>
   </body>
 </html>
