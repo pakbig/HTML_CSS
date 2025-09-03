@@ -28,7 +28,7 @@
       <div class="main">
         <div class="left">
           <h4>Web</h4>
-          <h1>Design <br /><span>and Development</span></h1>
+          <h1>Design<br /><span class="auto"></span></h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ,
             quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -42,5 +42,21 @@
         </div>
       </div>
     </div>
+    <!-- mengambil script js dari typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: [
+          "and Development.",
+          "and SEO.",
+          "and Application.",
+          "and Video Editing.",
+        ],
+        loop: true,
+        typeSpeed: 50,
+        backSpeed: 50,
+        backDelay: 1500,
+      });
+    </script>
   </body>
 </html>
