@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Grid Sederhana</title>
     <style>
-      .grid-container {
+      .grid-column {
         display: grid; /* Mengubah kontainer menjadi grid */
-        grid-template-columns: 1fr 1fr 1fr; /* Membuat tiga kolom dengan lebar yang sama */
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* Membuat tiga kolom dengan lebar yang sama */
         gap: 10px; /* Memberikan jarak antar item */
-        border: 2px solid black;
+        border: 1px solid black;
+        box-shadow: 3px 3px 2px rgb(165, 165, 228);
         padding: 10px;
       }
 
@@ -30,11 +31,13 @@
   <body>
     <h1>Contoh CSS Grid Sederhana</h1>
 
-    <div class="grid-container">
+    <div class="grid-column">
       <div class="grid-item">Kotak 1</div>
       <div class="grid-item">Kotak 2</div>
       <div class="grid-item">Kotak 3</div>
+      <div class="grid-item">Kotak 4</div>
     </div>
+
     <br />
     <div class="grid-row">
       <div class="grid-item">Kotak 4</div>
@@ -43,4 +46,3 @@
     </div>
   </body>
 </html>
-
